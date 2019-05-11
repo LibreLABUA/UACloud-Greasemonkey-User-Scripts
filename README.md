@@ -5,7 +5,15 @@ Greasemonkey/Tampermonkey User Scripts to improve user experience on the "cloud"
 
 ### Requirements
 
-- Tampermonkey(Chrome/ium) / Greasemonkey(Firefox & Forks)
+- Greasemonkey (![Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/))
+
+or
+
+- Tampermonkey (![Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)) (![Chrome/ium](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
+
+or
+
+- Anything else that runs user scripts in your web browser
 
 
 ### Installing
