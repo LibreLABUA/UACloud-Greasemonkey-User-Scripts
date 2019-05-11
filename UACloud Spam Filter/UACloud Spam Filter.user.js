@@ -7,11 +7,11 @@
 
 //Si hubiera notificaciones de anuncios generales, las marca como leidas y recarga la pagina
 if (document.getElementById("RESUMEN_ANUNCIOSGRAL") != null && window.XMLHttpRequest) {
-            request = new XMLHttpRequest();
-  					request.open('POST', '/apirestservices/api/privados/MarcarAnunciosGral', true);
-						request.setRequestHeader("Content-type", "application/json");
-						request.send(JSON.stringify({ Token: sessionStorage.getItem('token') }));
-  					window.location.reload(false);
+	request = new XMLHttpRequest();
+	request.open('POST', '/apirestservices/api/privados/MarcarAnunciosGral', true);
+	request.setRequestHeader("Content-type", "application/json");
+	request.send(JSON.stringify({ Token: sessionStorage.getItem('token') }));
+	window.location.reload(false);
 }
 
 //Esconde los anuncios generales de la aplicacion de anuncios
